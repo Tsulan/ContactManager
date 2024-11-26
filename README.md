@@ -51,5 +51,54 @@ src/main/java/com/example/ContactManager/
 **Описание:** Возвращает список всех контактов.
 
 **Демонстрация работы:**
+
 ![img.png](src/test/resources/documentation/img.png)
 
+### Получить детали контакта по id
+**URL:** `/contacts/{id}`  
+**Метод:** `GET`  
+**Описание:** Возвращает детали контакта по id.
+
+**Демонстрация работы:**
+
+![img_1.png](src/test/resources/documentation/img_1.png)
+
+### Создать контакт
+**URL:** `/contacts`  
+**Метод:** `POST`  
+**Описание:** Создает контакт по отправленным деталям.
+
+**Демонстрация работы:**
+
+![img_2.png](src/test/resources/documentation/img_2.png)
+
+### Создать контакт с неправильным номером. Пример Валидации
+**URL:** `/contacts`  
+**Метод:** `POST`  
+**Описание:** Возвращает ошибку, что номер неверный
+
+**Демонстрация работы:**
+
+![img_3.png](src/test/resources/documentation/img_3.png)
+
+### Обновить контакт по id
+**URL:** `/contacts/{id}`  
+**Метод:** `PUT`  
+**Описание:** Обновляет контакт.
+
+**Демонстрация работы:**
+
+![img_4.png](src/test/resources/documentation/img_4.png)
+
+### Удалить контакт по id
+**URL:** `/contacts/{id}`  
+**Метод:** `DELETE`  
+**Описание:** Удаляет контакт.
+
+**Демонстрация работы:**
+
+![img_5.png](src/test/resources/documentation/img_5.png)
+
+**Результат после удаления:**
+
+![img_6.png](src/test/resources/documentation/img_6.png)
